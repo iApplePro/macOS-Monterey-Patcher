@@ -2,7 +2,7 @@
 macOS Monterey Patcher is now available
 The macOS Monterey Patcher is availible for a few unsupported macs hope in the future that more macs will be compadible, for now the macs that are compadible will be listed below
 
-(Macs Supported by this Patcher)
+# (Macs Supported by this Patcher)
 
 
 Macbook Pro Early 2013 13 and 15 inch
@@ -25,7 +25,7 @@ iMac Late 2014 5K 27 inch
 
 iMac Mid 2015 5K 27 inch
 
-(Macs that are at the Unknown status)
+# (Macs that are at the Unknown status)
 
 
 Macbook Pro Mid 2012 13 and 15 inch
@@ -45,7 +45,7 @@ iMac Late 2012 21.5 and 27 inch
 (The Unknown status means that this patcher has not been tested on these Macs do at your own risk)
 
 
-(Macs that are not supported by this Patcher)
+# (Macs that are not supported by this Patcher)
 
 
 Macbook Pro Early 2008 15 and 17 inch
@@ -99,7 +99,11 @@ iMac Mid 2011 21.5 and 27 inch
 I know there are lots of Macs that don't support this patcher but dont worry support will come soon.
 
 # How to install
-Before you attempt make a back up of your drive I am not responsible if you damage your machine. You first are going to make a bootable Usb with the macOS 12 beta 1. If you do not know how to do this google it or watch a youtube video.
-Next step Once you have your bootable usb you will type sudo then put the install-Monterey-Patch.sh into the terminal then place the usb with the macOS 12 into the terminal. Then hit enter it will ask you to type your password type it in.
-Once that is done you will put the Montereypatcher.sh into the terminal then followed by the usb with the macOS 12.
-Then you can hold the option key and click the EFI your mac will shut down then turn back on then hold the option key now you can boot into the macOS 12 beta. then continue with the installer then it will boot into the macOS 12 beta once it is done. If you have a mac that did not run Big Sur Natively you will have to follow these steps first you find the Monterey-kexts.sh place it in the terminal then click enter then reboot. Then Your done.
+Before you attempt make a backup of your drive I am not responsible if you damage your machine. Let's start, you first are going to make a bootable USB with the macOS 12 beta 1. If you do not know how to do this google it or watch a youtube video.
+Next step Once you have your bootable USB you will type sudo then put the install-Monterey-Patch.sh into the terminal then place the USB with the macOS 12 into the terminal. Then hit enter it will ask you to type your password type it in.
+Once that is done you will put the Montereypatcher.sh into the terminal then followed by the USB with the macOS 12.
+Once you have your installer USB you reboot your computer and when you hear the chime you can hold the option key down. Now you will be at the boot picker once your there you can select the EFI your mac will shut down, then turn your computer back on then hold the option key now you can boot into the macOS 12 beta. Once your at the installation I would recommend you make a partition but it's up to you. Now you can continue with the installation this may take a while, once the installation is finished it will reboot into the drive you selected to install the macOS if you had a mac that ran Big Sur natively you're done but if you did not have a mac that ran Big Sur natively you will have to follow these next steps. Next step if you did not have a mac that did not run Big Sur Natively you will have to follow these steps first you find the Monterey-kexts.sh place it in the terminal once that finishes reboot your mac Then You're done.
+# Things to do when Monterey is finished
+Don't erase the the USB with the Patched Monterey you may need it later on.
+# Can You reset the NVRAM or PRAM?
+Yes but you need the insaller USB so you can efi boot and then you can boot into the internal drive.
