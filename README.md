@@ -100,7 +100,7 @@ I know there are lots of Macs that don't support this patcher but dont worry sup
 
 # How to install
 Before you attempt make a backup of your drive I am not responsible if you damage your machine. Let's start, you first are going to make a bootable USB with the macOS 12 beta 1. If you do not know how to do this google it or watch a youtube video.
-Next step Once you have your bootable USB you will type sudo then put the install-Monterey-Patch.sh into the terminal then place the USB with the macOS 12 into the terminal. Then hit enter it will ask you to type your password type it in.
+Next step Once you have your bootable USB you will download the Monterey Patcher dmg then open terminal and type sudo then put a space and place the install-Monterey-Patch.sh into the terminal then place the USB with the macOS 12 into the terminal. Then hit enter it will ask you to type your password type it in.
 Once that is done you will put the Montereypatcher.sh into the terminal then followed by the USB with the macOS 12.
 Once you have your installer USB you reboot your computer and when you hear the chime you can hold the option key down. Now you will be at the boot picker once your there you can select the EFI your mac will shut down, then turn your computer back on then hold the option key now you can boot into the macOS 12 beta. Once your at the installation I would recommend you make a partition but it's up to you. Now you can continue with the installation this may take a while, once the installation is finished it will reboot into the drive you selected to install the macOS if you had a mac that ran Big Sur natively you're done but if you did not have a mac that ran Big Sur natively and is one of the Supported or Unknown status macs you will have to follow these next steps. If your macs wifi or other things dont work then you will have to follow these steps. Next step if you did not have a mac that did not run Big Sur Natively you will have to follow these steps first you find the Monterey-kexts.sh place it in the terminal once that finishes reboot your mac Then You're done.
 # Things to do when Monterey is finished
@@ -115,4 +115,6 @@ Yes. On my mid 2014 Macbook Pro the battery life suffered on Big Sur it only las
 The Patcher is for patching macOS Monterey and it may Work On macOS Big Sur.
 
 Update1 A User Interface is in development will come out at relese v1.0 or later.
+
+Update2 You can download the new patcher dmg no user interface. 
 
