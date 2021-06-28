@@ -116,5 +116,7 @@ The Patcher is for patching macOS Monterey and it may Work On macOS Big Sur.
 
 Update1 A User Interface is in development will come out at relese v1.0 or later.
 
-Update2 You can download the new patcher dmg no user interface. 
+Update2 You can download the new patcher dmg no user interface.
+
+Update3 When you open the dmg you can place the patcher in the Destop, Documents, and the Applications when you drag the patcher to the applications folder it does not work this will get fixed in version 0.5 of the patcher.
 
