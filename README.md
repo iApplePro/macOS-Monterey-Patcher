@@ -111,5 +111,7 @@ Yes but you need the insaller USB so you can efi boot and then you can boot into
 Better preformance on some models.
 # Should you Install macOS Monterey On your unsupported mac
 Yes. On my mid 2014 Macbook Pro the battery life suffered on Big Sur it only lasted 4-6 hours but on Monterey it lasts 7-9 hours even after 886 cycles.
-# Things to know about the Patcher
+# Things to know about the Patcher and Updates will be posted here
 The Patcher is for patching macOS Monterey and it may Work On macOS Big Sur.
+Update1 A User Interface is in development will come out at relese v1.0 or later.
+
