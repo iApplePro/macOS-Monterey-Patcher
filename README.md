@@ -120,3 +120,5 @@ Update2 You can download the new patcher dmg no user interface.
 
 Update3 When you open the dmg you can place the patcher in the Destop, Documents, and the Applications when you drag the patcher to the applications folder it does not work this will get fixed in version 0.5 of the patcher.
 
+Update4 don't use the patcher it is unstalbe and wot work when you try version 0.5 will come.
+
