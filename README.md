@@ -122,3 +122,5 @@ Update3 When you open the dmg you can place the patcher in the Destop, Documents
 
 Update4 don't use the patcher it is unstalbe and wot work when you try version 0.5 will come.
 
+Update5 v0.5 does not work on the macOS Monterey beta 2 only beta 1
+
