@@ -49,12 +49,12 @@ else
     RECOVERY="NO"
     # Not in the recovery environment, so we need a different path to the
     # patched USB.
-    if [ -d "/Volumes/Install macOS 12 Beta" ]
+    if [ -d "/Volumes/Install macOS Big Sur" ]
     then
-        IMGVOL="/Volumes/Install macOS 12 Beta"
-    elif [ -d "/Volumes/Install macOS 12 Beta" ]
+        IMGVOL="/Volumes/Install macOS Big Sur"
+    elif [ -d "/Volumes/Install macOS Big Sur Beta" ]
     then
-        IMGVOL="/Volumes/Install macOS 12 Beta"
+        IMGVOL="/Volumes/Install macOS Big Sur Beta"
     else
         # if this is inaccurate, there's an error check in the next top-level
         # if-then block which will catch it and do the right thing
@@ -208,19 +208,19 @@ then
     # some uncertainty about how the default case should behave, so I want
     # to catch darn near everything in a non-default case if possible.
     iMac,1|Power*|RackMac*|[0-9][0-9][0-9])
-        echo "Monterey cannot run on PowerPC Macs."
+        echo "Big Sur cannot run on PowerPC Macs."
         exit 1
         ;;
     MacBookPro1,?|MacBook1,1|Macmini1,1)
-        echo "Monterey cannot run on 32-bit Macs."
+        echo "Big Sur cannot run on 32-bit Macs."
         exit 1
         ;;
     MacBook[23],1|Macmini2,1|MacPro[12],1|MacBookAir1,1|MacBookPro[23],?|Xserve1,?)
-        echo "This Mac has a very old Intel Core 2 CPU which cannot run Monterey."
+        echo "This Mac has a very old Intel Core 2 CPU which cannot run Big Sur."
         exit 1
         ;;
     MacBookPro6,?)
-        echo "This Mac has a 1st gen Intel Core CPU which cannot boot Monterey."
+        echo "This Mac has a 1st gen Intel Core CPU which cannot boot Big Sur."
         exit 1
         ;;
     # Macs which are not supported by Apple but supported by this patcher.
@@ -384,7 +384,7 @@ SVPL_BUILD=`grep '<string>[0-9][0-9][A-Z]' "$SVPL" | sed -e 's@^.*<string>@@' -e
 
 if echo $SVPL_BUILD | grep -q '^20'
 then
-    echo -n "Volume appears to have a Monterey installation (build" $SVPL_BUILD
+    echo -n "Volume appears to have a Big Sur installation (build" $SVPL_BUILD
     echo "). Continuing."
 else
     if [ -z "$SVPL_VER" ]
@@ -980,7 +980,7 @@ fi
 
 if [ "x$PATCHMODE" != "x-u" ]
 then
-    echo 'Installed Monterey kexts successfully.'
+    echo 'Installed patch kexts successfully.'
 else
-    echo 'Uninstalled Monterey kexts successfully.'
+    echo 'Uninstalled patch kexts successfully.'
 fi

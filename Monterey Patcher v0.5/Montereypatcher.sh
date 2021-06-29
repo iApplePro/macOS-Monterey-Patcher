@@ -1,6 +1,6 @@
 #!/bin/bash
-VERSIONNUM=0.4
-VERSION="iApplePro Monterey Mpatcher v$VERSIONNUM"
+VERSIONNUM=0.5
+VERSION="iApplePro Montery Patcher v$VERSIONNUM"
 
 ### begin function definitions ###
 
@@ -38,7 +38,7 @@ checkDirAccess() {
 
 echo $VERSION
 echo 'Thanks to jackluke, ASentientBot, highvoltage12v, testheit, and'
-echo 'ParrotGeek for their hard work to get Monterey running on unsupported'
+echo 'ParrotGeek for their hard work to get Big Sur and Monterey running on unsupported'
 echo 'Macs! (See the README for more information.)'
 # Add a blank line of output to make things easier on the eyes.
 echo
@@ -57,7 +57,7 @@ fi
 # and beta 1, in that order.)
 if [ -z "$1" ]
 then
-    for x in "Install macOS Monterey" "Install macOS Monterey Beta" "Install macOS Beta"
+    for x in "Install macOS Monterey beta" "Install macOS Monterey" "Install macOS 12 Beta" "Install macOS Big Sur" "Install macOS Big Sur Beta" "Install macOS Beta"
     do
         if [ -d "/Volumes/$x/$x.app" ]
         then
@@ -69,7 +69,7 @@ then
 
     if [ ! -d "$APPPATH" ]
     then
-        echo "Failed to locate Monterey recovery USB stick."
+        echo "Failed to locate Big Sur and or Monterey recovery USB stick."
         echo "Remember to create it using createinstallmedia, and do not rename it."
         echo "If all else fails, try specifying the path to the USB stick"
         echo "as a command line parameter to this script."
@@ -83,7 +83,7 @@ else
     APPPATH=`echo -n "$VOLUME"/Install\ macOS*.app`
     if [ ! -d "$APPPATH" ]
     then
-        echo "Failed to locate Monterey recovery USB stick for patching."
+        echo "Failed to locate Big Sur recovery USB stick for patching."
         echo "Make sure you specified the correct volume. You may also try"
         echo "not specifying a volume and allowing the patcher to find"
         echo "the volume itself."
@@ -186,14 +186,14 @@ touch "$APPPATH"
 # Copy the shell scripts into place so that they may be used once the
 # USB stick is booted.
 echo 'Copying shell scripts...'
-cp -f payloads/*.sh "$VOLUME"
+cp -f Montereyloads/*.sh "$VOLUME"
 
 # Copy Hax dylibs into place
 echo "Adding Hax dylibs..."
-cp -f payloads/ASentientBot-Hax/BarryKN-fork/Hax*.dylib "$VOLUME"
+cp -f Montereyloads/ASentientBot-Hax/iApplePro-fork/Hax*.dylib "$VOLUME"
 
 echo 'Adding kexts and other binaries...'
-cp -rf payloads/kexts payloads/bin "$VOLUME"
+cp -rf Montereyloads/kexts payloads/bin "$VOLUME"
 
 # Let's play it safe and ensure the shell scripts, dylibs, etc. are executable.
 chmod -R u+x "$VOLUME"/*.sh "$VOLUME"/Hax*.dylib "$VOLUME"/bin
