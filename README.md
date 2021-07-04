@@ -120,7 +120,7 @@ Update2 You can download the new patcher dmg no user interface.
 
 Update3 When you open the dmg you can place the patcher in the Destop, Documents, and the Applications when you drag the patcher to the applications folder it does not work this will get fixed in version 0.5 of the patcher.
 
-Update4 don't use the patcher it is unstalbe and wot work when you try version 0.5 will come.
+Update4 don't use the patcher 0.4 it is unstalbe and won't work when you try, version 0.5 will come.
 
 Update5 v0.5 does not work on the macOS Monterey beta 2 only beta 1
 
