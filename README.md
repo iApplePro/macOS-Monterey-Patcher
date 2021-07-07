@@ -124,3 +124,5 @@ Update4 don't use the patcher 0.4 it is unstalbe and won't work when you try, ve
 
 Update5 v0.5 does not work on the macOS Monterey beta 2 only beta 1
 
+Update6 v0.6 will bring support for Monterey Beta 2
+
