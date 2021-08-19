@@ -188,5 +188,5 @@ Mac Pro Early 2009
 
 iMac Early 2009 20 and 24 inch
 
-If you have any of these Macs use OpenCore Legacy Patcher 
+If you have any of these Macs use OpenCore Legacy Patcher tps://github.com/dortania/OpenCore-Legacy-Patcher
 
