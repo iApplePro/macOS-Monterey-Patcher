@@ -1,5 +1,5 @@
 #!/bin/bash
-echo 'Unpatcherusb starting. If this fails, try recreating the installer USB using'
+echo 'Unpatcher starting. If this fails, try recreating the installer USB using'
 echo 'createinstallmedia.'
 echo
 
@@ -16,7 +16,7 @@ fi
 # and beta 1, in that order.)
 if [ -z "$1" ]
 then
-    for x in "Install macOS Big Sur" "Install macOS Big Sur Beta" "Install macOS Beta" "Install macOS 12 Beta" "Install macOS Monterey beta" "Install macOS Monterey"
+    for x in "Install macOS Big Sur" "Install macOS Big Sur Beta" "Install macOS Beta"
     do
         if [ -d "/Volumes/$x/$x.app" ]
         then
@@ -28,11 +28,11 @@ then
 
     if [ ! -d "$APPPATH" ]
     then
-        echo "Failed to locate Big Sur and or Monterey recovery USB stick for unpatching."
+        echo "Failed to locate Big Sur recovery USB stick for unpatching."
         echo "If all else fails, try specifying the path to the USB stick"
         echo "as a command line parameter to this script."
         echo
-        echo "Unpatcherusb cannot continue and will now exit."
+        echo "Unpatcher cannot continue and will now exit."
         exit 1
     fi
 else
@@ -41,12 +41,12 @@ else
     APPPATH=`echo -n "$VOLUME"/Install\ macOS*.app`
     if [ ! -d "$APPPATH" ]
     then
-        echo "Failed to locate Big Sur and or Monterey recovery USB stick for unpatching."
+        echo "Failed to locate Big Sur recovery USB stick for unpatching."
         echo "Make sure you specified the correct volume. You may also try"
         echo "not specifying a volume and allowing the unpatcher to find"
         echo "the volume itself."
         echo
-        echo "Unpatcherusb cannot continue and will now exit."
+        echo "Unpatcher cannot continue and will now exit."
         exit 1
     fi
 fi
@@ -124,4 +124,4 @@ then
 fi
 
 echo
-echo 'Unpatcherusb finished.'
+echo 'Unpatcher finished.'

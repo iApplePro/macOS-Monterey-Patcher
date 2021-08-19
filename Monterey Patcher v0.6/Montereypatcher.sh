@@ -1,6 +1,6 @@
 #!/bin/bash
-VERSIONNUM=0.5
-VERSION="iApplePro Montery Patcher v$VERSIONNUM"
+VERSIONNUM=0.6
+VERSION="iApplePro Big Sur and Monterey Montereypatcher v$VERSIONNUM"
 
 ### begin function definitions ###
 
@@ -57,7 +57,7 @@ fi
 # and beta 1, in that order.)
 if [ -z "$1" ]
 then
-    for x in "Install macOS Monterey beta" "Install macOS Monterey" "Install macOS 12 Beta" "Install macOS Big Sur" "Install macOS Big Sur Beta" "Install macOS Beta"
+    for x in "Install macOS Big Sur" "Install macOS Big Sur Beta" "Install macOS Beta" "Install macOS Monterey Beta" "Install macOS Monterey beta" "Install macOS Monterey" "Install macOS 12 Beta"
     do
         if [ -d "/Volumes/$x/$x.app" ]
         then
@@ -83,7 +83,7 @@ else
     APPPATH=`echo -n "$VOLUME"/Install\ macOS*.app`
     if [ ! -d "$APPPATH" ]
     then
-        echo "Failed to locate Big Sur recovery USB stick for patching."
+        echo "Failed to locate Big Sur and or Monterey recovery USB stick for patching."
         echo "Make sure you specified the correct volume. You may also try"
         echo "not specifying a volume and allowing the patcher to find"
         echo "the volume itself."
@@ -144,14 +144,14 @@ fi
 
 if [ -e "$VOLUME/Patch-Version.txt" ]
 then
-     echo "USB stick has already been patched. Running unpatch.sh to remove the"
+     echo "USB stick has already been patched. Running Unpatcherusb.sh to remove the"
      echo "existing patches before continuing."
      echo
-     if ./unpatch.sh --no-sync "$VOLUME"
+     if ./Unpatcherusb.sh --no-sync "$VOLUME"
      then
          echo 'Patcher is now continuing.'
      else
-         echo 'Unpatcher failed. Patcher cannot continue.'
+         echo 'Unpatcherusb failed. Patcher cannot continue.'
          exit 1
      fi
 fi
@@ -165,13 +165,13 @@ if [ ! -e "$VOLUME/Library/Preferences/SystemConfiguration/com.apple.Boot.plist.
 then
     cp "$VOLUME/Library/Preferences/SystemConfiguration/com.apple.Boot.plist" "$VOLUME/Library/Preferences/SystemConfiguration/com.apple.Boot.plist.original" || handleCopyPermissionsFailure
 fi
-cat payloads/com.apple.Boot.plist > "$VOLUME/Library/Preferences/SystemConfiguration/com.apple.Boot.plist"
+cat Montereyloads/com.apple.Boot.plist > "$VOLUME/Library/Preferences/SystemConfiguration/com.apple.Boot.plist"
 
 # Add the trampoline.
 echo 'Installing trampoline...'
 TEMPAPP="$VOLUME/tmp.app"
 mv -f "$APPPATH" "$TEMPAPP"
-cp -r payloads/trampoline.app "$APPPATH"
+cp -r Montereyloads/trampoline.app "$APPPATH"
 mv -f "$TEMPAPP" "$APPPATH/Contents/MacOS/InstallAssistant.app"
 cp "$APPPATH/Contents/MacOS/InstallAssistant" "$APPPATH/Contents/MacOS/InstallAssistant_plain"
 cp "$APPPATH/Contents/MacOS/InstallAssistant" "$APPPATH/Contents/MacOS/InstallAssistant_springboard"
@@ -190,10 +190,10 @@ cp -f Montereyloads/*.sh "$VOLUME"
 
 # Copy Hax dylibs into place
 echo "Adding Hax dylibs..."
-cp -f Montereyloads/ASentientBot-Hax/iApplePro-fork/Hax*.dylib "$VOLUME"
+cp -f Montereyloads/iApplePro-Hax/iApplePro-fork/Hax*.dylib "$VOLUME"
 
 echo 'Adding kexts and other binaries...'
-cp -rf Montereyloads/kexts payloads/bin "$VOLUME"
+cp -rf Montereyloads/kexts Montereyloads/bin "$VOLUME"
 
 # Let's play it safe and ensure the shell scripts, dylibs, etc. are executable.
 chmod -R u+x "$VOLUME"/*.sh "$VOLUME"/Hax*.dylib "$VOLUME"/bin

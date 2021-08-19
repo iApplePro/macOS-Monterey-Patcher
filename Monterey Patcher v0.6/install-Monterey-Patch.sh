@@ -56,7 +56,7 @@ done
 # and beta 1, in that order.)
 if [ -z "$1" ]
 then
-    for x in "Install macOS Big Sur" "Install macOS Big Sur Beta" "Install macOS Beta"
+    for x in "Install macOS Big Sur" "Install macOS Big Sur Beta" "Install macOS Beta" "Install macOS Monterey" "Install macOS Monterey beta" "Install macOS 12 Beta" "Install macOS Monterey Beta"
     do
         if [ -d "/Volumes/$x/$x.app" ]
         then
@@ -68,7 +68,7 @@ then
 
     if [ ! -d "$APPPATH" ]
     then
-        echo "Failed to locate Big Sur and or Monterey recovery USB stick."
+        echo "Failed to locate Big Sur or Monterey recovery USB stick."
         echo "Remember to create it using createinstallmedia, and do not rename it."
         echo "If all else fails, try specifying the path to the USB stick"
         echo "as a command line parameter to this script."
@@ -82,7 +82,7 @@ else
     APPPATH=`echo -n "$VOLUME"/Install\ macOS*.app`
     if [ ! -d "$APPPATH" ]
     then
-        echo "Failed to locate Big Sur and or Monterey recovery USB stick for patching."
+        echo "Failed to locate Big Sur or Monterey recovery USB stick for patching."
         echo "Make sure you specified the correct volume. You may also try"
         echo "not specifying a volume and allowing the patcher to find"
         echo "the volume itself."
@@ -162,7 +162,7 @@ then
     echo
     echo 'Please use Disk Utility to erase the USB stick as "Mac OS Extended'
     echo '(Journaled)" format on "GUID Partition Map" scheme and start over with'
-    echo '"createinstallmedia". Or for other methods, please refer to the Monterey-Patcher'
+    echo '"createinstallmedia". Or for other methods, please refer to the Montereypatcher'
     echo "README for more information."
     echo
     echo "install-Monterey-Patch cannot continue."
@@ -173,11 +173,11 @@ diskutil mount ${DEVICE}s1
 if [ ! -d "/Volumes/EFI" ]
 then
     echo "Partition 1 of the USB stick does not appear to be an EFI partition, or"
-    echo "mounting of the partition failed."
+    echo "mounting of the partition somehow failed."
     echo
     echo 'Please use Disk Utility to erase the USB stick as "Mac OS Extended'
     echo '(Journaled)" format on "GUID Partition Map" scheme and start over with'
-    echo '"createinstallmedia". Or for other methods, please refer to the Monterey-Patcher'
+    echo '"createinstallmedia". Or for other methods, please refer to the Montereypatcher'
     echo "README for more information."
     echo
     echo "install-Monterey-Patch cannot continue."
@@ -208,25 +208,25 @@ then
 fi
 
 # Now do the actual installation
-echo "Installing setvars EFI utility."
+echo "Installing Monterey-Patcher EFI utility."
 rm -rf /Volumes/EFI/EFI
 if [ "x$VERBOSEBOOT" = "xYES" ]
 then
     if [ "x$SIPARV" = "xYES" ]
     then
         echo 'Verbose boot enabled, SIP/ARV enabled'
-        cp -r setvars/EFI-enablesiparv-vb /Volumes/EFI/EFI
+        cp -r Monterey-Patcher/EFI-enablesiparv-vb /Volumes/EFI/EFI
     else
         echo 'Verbose boot enabled, SIP/ARV disabled'
-        cp -r setvars/EFI-verboseboot /Volumes/EFI/EFI
+        cp -r Monterey-Patcher/EFI-verboseboot /Volumes/EFI/EFI
     fi
 elif [ "x$SIPARV" = "xYES" ]
 then
     echo 'Verbose boot disabled, SIP/ARV enabled'
-    cp -r setvars/EFI-enablesiparv /Volumes/EFI/EFI
+    cp -r Monterey-Patcher/EFI-enablesiparv /Volumes/EFI/EFI
 else
     echo 'Verbose boot disabled, SIP/ARV disabled'
-    cp -r setvars/EFI /Volumes/EFI/EFI
+    cp -r Monterey-Patcher/EFI /Volumes/EFI/EFI
 fi
 
 echo "Unmounting EFI volume (if this fails, just eject in Finder afterward)."
