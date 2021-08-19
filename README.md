@@ -1,8 +1,8 @@
 # macOS Monterey Patcher
 macOS Monterey Patcher is now available
-The macOS Monterey Patcher is availible for a few unsupported macs hope in the future that more macs will be compadible, for now the macs that are compadible will be listed below
+The macOS Monterey Patcher is availible for a few unsupported macs hope in the future that more macs will be compadible, for now the macs that are compadible will be listed below. (This Patcher can also be used to patch Big Sur)
 
-# (Macs Supported by this Patcher)
+# (Macs Supported by this Patcher for Monterey)
 
 
 Macbook Pro Early 2013 13 and 15 inch
@@ -25,7 +25,7 @@ iMac Late 2014 5K 27 inch
 
 iMac Mid 2015 5K 27 inch
 
-# (Macs that are at the Unknown status)
+# (Macs that are at the Unknown status for using this patcher for Monterey)
 
 
 Macbook Pro Mid 2012 13 and 15 inch
@@ -45,8 +45,7 @@ iMac Late 2012 21.5 and 27 inch
 (The Unknown status means that this patcher has not been tested on these Macs do at your own risk)
 
 
-# (Macs that are not supported by this Patcher)
-
+# (Macs that are not supported by this Patcher for Monterey)
 
 Macbook Pro Early 2008 15 and 17 inch
 
@@ -111,18 +110,83 @@ Yes but you need the insaller USB so you can efi boot and then you can boot into
 Better preformance on some models.
 # Should you Install macOS Monterey On your unsupported mac
 Yes. On my mid 2014 Macbook Pro the battery life suffered on Big Sur it only lasted 4-6 hours but on Monterey it lasts 7-9 hours even after 886 cycles.
-# Things to know about the Patcher and Updates will be posted here
-The Patcher is for patching macOS Monterey and it may Work On macOS Big Sur.
+# When a new version of Monetery Patcher relases the whats new will be posted here
+Monterey Patcher v0.6
+Monterey Patcher now supports macOS Big Sur and macOS Monterey Beta 2 to Beta 5. No User interface.
+# macOS Big Sur Support list
+(Note some macs do not support metal so your experiance will be a bit slugish)
+some macs can be upgraded to support metal, there will be a grey check next to if it could be upgraded to support metal.
+Macs also have to support High Sierra Natively to use this patcher for Big Sur.
 
-Update1 A User Interface is in development will come out at relese v1.0 or later.
+# (Macs Supported by this Patcher for Big Sur)
 
-Update2 You can download the new patcher dmg no user interface.
+Macbook Pro Mid 2010 13,15 and 17 inch (Non Metal)
 
-Update3 When you open the dmg you can place the patcher in the Destop, Documents, and the Applications when you drag the patcher to the applications folder it does not work this will get fixed in version 0.5 of the patcher.
+Macbook Pro Early 2011 13,15 and 17 inch (Non Metal)
 
-Update4 don't use the patcher 0.4 it is unstalbe and won't work when you try, version 0.5 will come.
+Macbook Pro Late 2011 13,15 and 17 inch (Non Metal)
 
-Update5 v0.5 does not work on the macOS Monterey beta 2 only beta 1
+Macbook Air Late 2010 11 and 13 inch (Non Metal)
 
-Update6 v0.6 will bring support for Monterey Beta 2
+Macbook Air Mid 2011 11 and 13 inch (Non Metal)
+
+Macbook Late 2009 13 inch (Non Metal)
+
+Macbook Mid 2010 13 inch (Non Metal)
+
+Mac Mini Mid 2010 ☑️
+
+Mac Mini Mid 2011 ☑️
+
+Mac Pro Mid 2010 ☑️
+
+iMac Late 2009 21.5 and 27 inch ☑️
+
+iMac Mid 2010 21.5 and 27 inch ☑️
+
+iMac Mid 2011 21.5 and 27 inch ☑️
+
+Macbook Pro Mid 2012 13 and 15 inch (Supports Metal)
+
+Macbook Pro Retina Mid 2012 15 inch (Supports Metal)
+
+Macbook Pro Retina Late 2012 13 inch (Supports Metal)
+
+Macbook Air Mid 2012 11 and 13 inch (Supports Metal)
+
+Mac Mini Late 2012 (Supports Metal)
+
+Mac Pro Mid 2012 (Supports Metal)
+
+iMac Late 2012 21.5 and 27 inch (Supports Metal)
+
+Macbook Pro Early 2013 13 and 15 inch (Supports Metal)
+
+iMac Late 2013 21.5 and 27 inch (Full Support no need for Patch Kexts)
+
+# (Macs Not Supported by this Patcher for Big Sur)
+
+Macbook Pro Early 2008 15 and 17 inch
+
+Macbook Pro Late 2008 15 inch
+
+Macbook Pro Early 2009 17 inch
+
+Macbook Pro Mid 2009 13,15 and 17 inch
+
+Macbook Air Mid 2009
+
+Macbook Early 2009 13 inch
+
+Macbook Mid 2009 13 inch
+
+Mac Mini Early 2009
+
+Mac Mini Late 2009
+
+Mac Pro Early 2009
+
+iMac Early 2009 20 and 24 inch
+
+There is a better patcher for these Macs https://github.com/dortania/OpenCore-Legacy-Patcher 
 
