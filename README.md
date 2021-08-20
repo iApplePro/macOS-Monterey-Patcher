@@ -86,10 +86,6 @@ Mac Mini Mid 2010
 
 Mac Mini Mid 2011
 
-Mac Pro Mid 2010
-
-Mac Pro Early 2009
-
 iMac Early 2009 20 and 24 inch
 
 iMac Late 2009 21.5 and 27 inch
