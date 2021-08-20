@@ -27,7 +27,6 @@ iMac Mid 2015 5K 27 inch
 
 # (Potential Support for Monterey)
 
-
 Macbook Pro Mid 2012 13 and 15 inch
 
 Macbook Pro Retina Mid 2012 15 inch
@@ -42,7 +41,11 @@ Mac Pro Mid 2012
 
 iMac Late 2012 21.5 and 27 inch
 
-(The Unknown status means that this patcher has not been tested on these Macs do at your own risk)
+Mac Pro Mid 2010 (Note CPU, GPU and WIFI might need to be upgraded and sound might not work)
+
+Mac Pro Early 2009 (Note CPU, GPU and WIFI might need to be upgraded and needs to be flashed from a 4,1 to a 5,1 Mac Pro and sound might not work)
+
+(The Potential Support status means that this patcher has not been tested on these Macs do at your own risk)
 
 
 # (Macs that are not supported by this Patcher for Monterey)
@@ -116,7 +119,7 @@ Monterey Patcher v0.6
 Monterey Patcher now supports macOS Big Sur and macOS Monterey Beta 2 to Beta 5. No User interface.
 # macOS Big Sur Support list
 (Note some macs do not support metal so your experiance will be a bit slugish)
-some macs can be upgraded to support metal, there will be a grey check next to if it could be upgraded to support metal.
+some macs can be upgraded to support metal, it will say Potential Metal support if it could be upgraded to support metal.
 Macs also have to support High Sierra Natively to use this patcher for Big Sur.
 
 # (Macs Supported by this Patcher for Big Sur)
@@ -135,17 +138,17 @@ Macbook Late 2009 13 inch (Non Metal)
 
 Macbook Mid 2010 13 inch (Non Metal)
 
-Mac Mini Mid 2010 ☑️
+Mac Mini Mid 2010 (Potential Metal Support)
 
-Mac Mini Mid 2011 ☑️
+Mac Mini Mid 2011 (Potential Metal Support)
 
-Mac Pro Mid 2010 ☑️
+Mac Pro Mid 2010 (Potential Metal Support)
 
-iMac Late 2009 21.5 and 27 inch ☑️
+iMac Late 2009 21.5 and 27 inch (Potential Metal Support)
 
-iMac Mid 2010 21.5 and 27 inch ☑️
+iMac Mid 2010 21.5 and 27 inch (Potential Metal Support)
 
-iMac Mid 2011 21.5 and 27 inch ☑️
+iMac Mid 2011 21.5 and 27 inch (Potential Metal Support)
 
 Macbook Pro Mid 2012 13 and 15 inch (Supports Metal)
 
