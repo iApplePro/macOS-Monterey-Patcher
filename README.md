@@ -25,7 +25,7 @@ iMac Late 2014 5K 27 inch
 
 iMac Mid 2015 5K 27 inch
 
-# (Macs that are at the Unknown status for using this patcher for Monterey)
+# (Potential Support for Monterey)
 
 
 Macbook Pro Mid 2012 13 and 15 inch
@@ -112,6 +112,7 @@ Better preformance on some models.
 Yes. On my mid 2014 Macbook Pro the battery life suffered on Big Sur it only lasted 4-6 hours but on Monterey it lasts 7-9 hours even after 886 cycles.
 # When a new version of Monetery Patcher relases the whats new will be posted here
 Monterey Patcher v0.6
+
 Monterey Patcher now supports macOS Big Sur and macOS Monterey Beta 2 to Beta 5. No User interface.
 # macOS Big Sur Support list
 (Note some macs do not support metal so your experiance will be a bit slugish)
@@ -164,6 +165,10 @@ Macbook Pro Early 2013 13 and 15 inch (Supports Metal)
 
 iMac Late 2013 21.5 and 27 inch (Full Support no need for Patch Kexts)
 
+# (Potential Support for Big Sur)
+
+Mac Pro Early 2009 (Can Run Big Sur but it needs to be flashed from a 4,1 to a 5,1)
+
 # (Macs Not Supported by this Patcher for Big Sur)
 
 Macbook Pro Early 2008 15 and 17 inch
@@ -183,8 +188,6 @@ Macbook Mid 2009 13 inch
 Mac Mini Early 2009
 
 Mac Mini Late 2009
-
-Mac Pro Early 2009
 
 iMac Early 2009 20 and 24 inch
 
