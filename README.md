@@ -111,6 +111,9 @@ Better preformance on some models.
 Yes. On my mid 2014 Macbook Pro the battery life suffered on Big Sur it only lasted 4-6 hours but on Monterey it lasts 7-9 hours even after 886 cycles.
 # When a new version of Monetery Patcher relases the whats new will be posted here
 Monterey Patcher v0.6
+Brings New Patcher Icons
+# Patcher Progress
+Monterey Patcher 0.7 will be releasing soon it is being tested on mcaos Monterey beta 6 - 10
 
 Monterey Patcher now supports macOS Big Sur and macOS Monterey Beta 2 to Beta 5. No User interface.
 # macOS Big Sur Support list
