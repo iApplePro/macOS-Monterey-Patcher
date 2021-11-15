@@ -113,6 +113,8 @@ Yes. On my mid 2014 Macbook Pro the battery life suffered on Big Sur it only las
 Monterey Patcher v0.6
 Brings New Patcher Icons
 # Patcher Progress
+Monterey Patcher 0.7 will be delayed due to additional testing with macOS Monterey 12.0.1 and 12.1 Beta
+
 Monterey Patcher 0.7 will be releasing soon it is being tested on mcaos Monterey beta 6 - 10
 
 Monterey Patcher now supports macOS Big Sur and macOS Monterey Beta 2 to Beta 5. No User interface.
