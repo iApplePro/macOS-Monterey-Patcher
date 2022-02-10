@@ -7,8 +7,6 @@ The macOS Monterey Patcher is availible for a few unsupported macs hope in the f
 
 Macbook Pro Early 2013 13 and 15 inch
 
-Macbook Pro Late 2013 13 and 15 inch
-
 Macbook Pro Mid 2014 13 and 15 inch
 
 Macbook Air Mid 2013 11 and 13 inch
@@ -17,8 +15,6 @@ Macbook Air Early 2014 11 and 13 inch
 
 Macbook Early 2015 12 inch
 
-iMac Late 2013 21.5 and 27 inch
-
 iMac Mid 2014 21.5 inch
 
 iMac Late 2014 5K 27 inch
@@ -26,6 +22,10 @@ iMac Late 2014 5K 27 inch
 iMac Mid 2015 5K 27 inch
 
 # (Potential Support for Monterey)
+
+Macbook Pro Late 2013 13 and 15 inch
+
+iMac Late 2013 21.5 and 27 inch
 
 Macbook Pro Mid 2012 13 and 15 inch
 
@@ -195,6 +195,4 @@ Mac Mini Late 2009
 
 iMac Early 2009 20 and 24 inch
 
-If you have any of these Macs use OpenCore Legacy Patcher 
-
-Link here : https://github.com/dortania/OpenCore-Legacy-Patcher 
+If you have any of these Macs this patcher does not support them and are probably too old to run Big Sur since they run older version of macOS  this patcher supports macs that run High Sierra or later.
