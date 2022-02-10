@@ -1,6 +1,6 @@
 # macOS Monterey Patcher
 macOS Monterey Patcher is now available
-The macOS Monterey Patcher is availible for a few unsupported macs hope in the future that more macs will be compadible, for now the macs that are compadible will be listed below. (This Patcher can also be used to patch Big Sur)
+The macOS Monterey Patcher is availible for a few unsupported macs hope in the future that more macs will be compadible, for now the macs that are compadible will be listed below. (This Patcher can also be used to patch Big Sur)(This Patcher Works with Beta versions of macOS Montery)
 
 # (Macs Supported by this Patcher for Monterey)
 
