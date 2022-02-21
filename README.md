@@ -5,7 +5,7 @@ The macOS Monterey Patcher is availible for a few unsupported macs hope in the f
 # (Macs Supported by this Patcher for Monterey)
 
 
-Macbook Pro Early 2013 13 and 15 inch
+Macbook Pro Late 2013 13 and 15 inch
 
 Macbook Pro Mid 2014 13 and 15 inch
 
@@ -15,6 +15,8 @@ Macbook Air Early 2014 11 and 13 inch
 
 Macbook Early 2015 12 inch
 
+iMac Late 2013 21.5 and 27 inch
+
 iMac Mid 2014 21.5 inch
 
 iMac Late 2014 5K 27 inch
@@ -23,9 +25,7 @@ iMac Mid 2015 5K 27 inch
 
 # (Potential Support for Monterey)
 
-Macbook Pro Late 2013 13 and 15 inch
-
-iMac Late 2013 21.5 and 27 inch
+Macbook Pro Early 2013 13 and 15 inch
 
 Macbook Pro Mid 2012 13 and 15 inch
 
